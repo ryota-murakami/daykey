@@ -40,3 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .superpowers/
+
+# Override global gitignore — AGENTS.md is part of this project
+!AGENTS.md
