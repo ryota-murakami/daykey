@@ -170,6 +170,9 @@ export default function DashboardPage() {
   // 🎯 Lesson 92: ⌃X ⌃C
   // Toggle Cursor Tab — ⌃X ⌃C で Cursor Tab（AI補完）をトグルしてください（chord shortcut）
 
+  // 🎯 Lesson 100: ⌘⇧J
+  // Toggle Cursor/Zed Agents Window — ⌘⇧J で Cursor/Zed の Agents Window をトグルしてください
+
   // 🎯 Lesson 93: ⌃G ⌃B
   // Git Blame — ⌃G ⌃B で現在の行の Git Blame を表示してください（chord shortcut / WebStorm）
 

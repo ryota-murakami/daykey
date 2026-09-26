@@ -34,7 +34,7 @@ cursor .   # or: webstorm .
 export interface User {
 ```
 
-全 99 レッスンの一覧は **[TUTORIAL.md](./TUTORIAL.md)** を参照してください。
+全 101 レッスンの一覧は **[TUTORIAL.md](./TUTORIAL.md)** を参照してください。
 
 ## Lesson Categories
 
@@ -50,9 +50,9 @@ export interface User {
 | IntelliSense | 64 | ⌃I 型補完 |
 | File Explorer | 65–72 | エクスプローラー操作 |
 | IDE Feature | 73–89 | コマンドパレット, ターミナル, 設定 |
-| AI | 90–92 | AI チャット操作 |
+| AI | 90–92, 100 | AI チャット操作, Agents Window |
 | Git | 93 | Git Blame |
-| Multiple Cursor | 94–99 | 矩形選択, カーソルクローン |
+| Multiple Cursor | 94–99, 101 | 矩形選択, カーソルクローン, multiCursorModifier |
 
 ## Modifier Key Legend
 
@@ -90,11 +90,11 @@ git checkout . && git clean -fd
 
 ```
 daykey/
-  TUTORIAL.md              # Master lesson guide (全99レッスン一覧)
+  TUTORIAL.md              # Master lesson guide (全101レッスン一覧)
   src/
     app/
       layout.tsx            # Root layout (Lessons 56–57)
-      page.tsx              # Dashboard page (Lessons 45–48, 58–93)
+      page.tsx              # Dashboard page (Lessons 45–48, 58–93, 100)
       globals.css           # Tailwind v4 + dark theme variables
     components/
       Header.tsx            # Nav bar (Lessons 17–24)
@@ -102,7 +102,7 @@ daykey/
       StatCard.tsx          # Metric card (Lessons 30–34)
       StatsGrid.tsx         # Stats grid (Lessons 49–51)
       Chart.tsx             # Bar chart (Lessons 42–44)
-      DataTable.tsx         # Data table (Lessons 11–16, 94–99)
+      DataTable.tsx         # Data table (Lessons 11–16, 94–99, 101)
       SearchBar.tsx         # Search input (Lessons 35–36)
       UserMenu.tsx          # User dropdown (Lessons 37–38)
       Modal.tsx             # Modal dialog (Lessons 39–41)

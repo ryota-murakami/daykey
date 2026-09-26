@@ -166,6 +166,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 90 | ⌘L | Toggle Chat Tab | `src/app/page.tsx` |
 | 91 | ⌘⇧L | New AI Chat | `src/app/page.tsx` |
 | 92 | ⌃X ⌃C | Toggle Cursor Tab | `src/app/page.tsx` |
+| 100 | ⌘⇧J | Toggle Cursor/Zed Agents Window | `src/app/page.tsx` |
 
 ## Git
 
@@ -183,12 +184,13 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 97 | ⌥⌘↑ | Clone Cursor Above（上にカーソルクローン） | `src/components/DataTable.tsx` |
 | 98 | ⌥⌘↓ | Clone Cursor Below（下にカーソルクローン） | `src/components/DataTable.tsx` |
 | 99 | ⌘⇧Mouse | Vertical cursor fill-in（垂直カーソル） | `src/components/DataTable.tsx` |
+| 101 | ctrlCmd | `editor.multiCursorModifier` を `ctrlCmd` に設定（⌘クリックでキャレット追加、⌥ドラッグで矩形選択） | `src/components/DataTable.tsx` |
 
 ---
 
 ## 完了おめでとうございます！ 🎉
 
-全99レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
+全101レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
 
 リセットして再挑戦するには:
 ```bash

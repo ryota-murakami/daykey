@@ -65,6 +65,9 @@ interface DataTableProps {
 // 🎯 Lesson 99: ⌘⇧Mouse
 // 垂直にカーソルを配置してください（Vertical cursor fill-in）
 
+// 🎯 Lesson 101: ctrlCmd
+// `editor.multiCursorModifier` を `ctrlCmd` に設定してください（VS Code/Cursor の settings.json）。⌘クリックでキャレットを追加し、⌥ドラッグで矩形選択になります
+
 type SortDirection = "asc" | "desc" | null;
 
 interface SortState {
