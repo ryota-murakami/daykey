@@ -49,7 +49,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 18 | ⌃B⌥ | cursorLeftWordSelect（単語左選択） | `src/components/Header.tsx` |
 | 19 | ⌃P⌥ | cursorTopBlockSelect（ブロック上選択） | `src/components/Header.tsx` |
 | 20 | ⌃N⌥ | cursorBottomBlockSelect（ブロック下選択） | `src/components/Header.tsx` |
-| 21 | ⌥Click | Rectangular Selection（矩形選択） | `src/components/Header.tsx` |
+| 21 | ⌥Click | Add Cursor（カーソル追加 / createCursor） | `src/components/Header.tsx` |
 | 22 | ⌃⌘M | Select Inner Bracket（ブラケット内選択） | `src/components/Header.tsx` |
 | 23 | ⌥A | Toggle Sticky Selection（WebStorm） | `src/components/Header.tsx` |
 | 24 | ⌥A | Select bracket（Cursor） | `src/components/Header.tsx` |
