@@ -36,11 +36,11 @@ interface HeaderProps {
 // ブロック単位で下に選択を拡張してください（cursorBottomBlockSelect）
 
 // ---------------------------------------------------------------------------
-// Bracket & Rectangular Selection Lessons
+// Multi-Cursor & Bracket Selection Lessons
 // ---------------------------------------------------------------------------
 
 // 🎯 Lesson 21: ⌥Click
-// ⌥キーを押しながらクリックで矩形選択を開始してください
+// ⌥キーを押しながらクリックでカーソルを追加してください（createCursor）
 
 // 🎯 Lesson 22: ⌃⌘M
 // 内側のブラケットの内容を選択してください（Select Inner Bracket）。下のJSXタグの中にカーソルを置いて ⌃⌘M

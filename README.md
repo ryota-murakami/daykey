@@ -41,7 +41,7 @@ export interface User {
 | Category | Lessons | Practice Focus |
 |----------|---------|----------------|
 | Move Cursor | 01–10 | ⌃F/⌃B/⌃A/⌃E, 単語・ブロック移動 |
-| Selection | 11–24 | 選択拡張, 矩形選択, ブラケット内選択 |
+| Selection | 11–24 | 選択拡張, カーソル追加, ブラケット内選択 |
 | Scroll | 25–29 | ⌃V/⌥V ページスクロール |
 | Code Edit | 30–44 | Delete/Copy/Paste, リネーム, タグ操作 |
 | Find | 45–48 | ⌘F/⌘⇧F 検索・置換 |
