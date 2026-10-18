@@ -42,9 +42,6 @@ interface HeaderProps {
 // 🎯 Lesson 21: ⌥Click
 // ⌥キーを押しながらクリックでカーソルを追加してください（createCursor）
 
-// 🎯 Lesson 22: ⌃⌘M
-// 内側のブラケットの内容を選択してください（Select Inner Bracket）。下のJSXタグの中にカーソルを置いて ⌃⌘M
-
 // 🎯 Lesson 23: ⌥A
 // Sticky Selection をトグルしてください（WebStorm）/ ブラケット選択（Cursor）
 
@@ -66,6 +63,9 @@ interface HeaderProps {
  * <Header title="DayKey Analytics" notificationCount={5} />
  */
 const DEFAULT_USER = { name: "Guest", email: "guest@daykey.app", avatar: "/avatar.png" };
+
+// 🎯 Lesson 22: ⌃⌘M
+// 内側のブラケットの内容を選択してください（Select Inner Bracket）。下のJSXタグの中にカーソルを置いて ⌃⌘M
 
 export function Header({ title, notificationCount, user = DEFAULT_USER }: HeaderProps) {
   const [searchValue, setSearchValue] = useState("");
