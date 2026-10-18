@@ -93,6 +93,7 @@ Chord shortcuts (e.g., `⌃X ⌃F`): press first key, release, press second key.
 5. **Use pnpm only.** Do not use npm, yarn, or bun.
 6. **Maintain dark theme.** All UI uses CSS custom properties defined in `globals.css :root`.
 7. **Keep `data.ts` long.** The 600+ line file length is intentional for scroll lessons (25–29).
+8. **Do not add custom keybind commands to this repo.** Commands that have no built-in editor equivalent belong in `~/dotfiles/local.extend-keybinds`. Add the command there, then run `install_extend_keybinds` to install it into VS Code, Cursor, and Devin Desktop.
 
 ## File Purposes
 
