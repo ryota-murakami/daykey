@@ -2,7 +2,7 @@
 
 ## Project
 
-DayKey — vimtutor-style keybind practice tutorial. A Next.js analytics dashboard where the source code IS the tutorial material. Users practice 101 lessons by following lesson comments embedded in source files.
+DayKey — vimtutor-style keybind practice tutorial. A Next.js analytics dashboard where the source code IS the tutorial material. Users practice 102 lessons by following lesson comments embedded in source files.
 
 **This is NOT a running web app for end users.** The code exists as practice material for editor keybind training.
 
@@ -42,7 +42,7 @@ src/
     data.ts             # Mock data (600+ lines, intentionally long for scroll practice)
     api.ts              # Fake async API functions
     constants.ts        # App constants
-TUTORIAL.md             # Master lesson guide listing all 101 lessons
+TUTORIAL.md             # Master lesson guide listing all 102 lessons
 ```
 
 ## Architecture
@@ -57,7 +57,7 @@ TUTORIAL.md             # Master lesson guide listing all 101 lessons
 
 ### Lesson Comments (CRITICAL)
 
-101 tutorial lessons are embedded as comments across source files:
+102 tutorial lessons are embedded as comments across source files:
 
 ```tsx
 // 🎯 Lesson NN: <shortcut>
@@ -87,7 +87,7 @@ Chord shortcuts (e.g., `⌃X ⌃F`): press first key, release, press second key.
 ## Rules
 
 1. **NEVER remove or modify `// 🎯 Lesson` comments.** These are the core tutorial content. Every source file change must preserve all lesson comments exactly.
-2. **NEVER modify TUTORIAL.md lesson numbering or shortcut assignments.** The 101-lesson sequence is fixed.
+2. **NEVER modify TUTORIAL.md lesson numbering or shortcut assignments.** The 102-lesson sequence is fixed.
 3. **Preserve intentionally long lines in `utils.ts` and `data.ts`.** These exist for cursor movement and scroll practice.
 4. **Preserve repetitive patterns in `DataTable.tsx`.** The repeated `<td>` structure exists for multiple cursor practice.
 5. **Use pnpm only.** Do not use npm, yarn, or bun.
@@ -106,6 +106,6 @@ Chord shortcuts (e.g., `⌃X ⌃F`): press first key, release, press second key.
 | `src/components/DataTable.tsx` | Repetitive JSX for multi-cursor practice | 11–16, 94–99, 101 |
 | `src/components/Header.tsx` | JSX with brackets for selection practice | 17–24 |
 | `src/components/StatCard.tsx` | Simple component for edit operations | 30–34 |
-| `src/components/Chart.tsx` | HTML tag structure for tag operations | 42–44 |
+| `src/components/Chart.tsx` | HTML tag structure for tag operations | 42–44, 102 |
 | `src/app/page.tsx` | Main page with many imports and lessons | 45–48, 58–93, 100 |
 | `TUTORIAL.md` | Master lesson guide (human reference) | all |

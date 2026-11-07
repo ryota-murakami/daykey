@@ -83,6 +83,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 42 | ⌃⌘T | Surround With Snippet（スニペットで囲む） | `src/components/Chart.tsx` |
 | 43 | ⌃S | Wrapping HTML Tag（タグ変更） | `src/components/Chart.tsx` |
 | 44 | ⌃⌘D | Delete Parent HTML Tag（親タグ削除） | `src/components/Chart.tsx` |
+| 102 | ⌃⌘S | Delete Parent HTML Tag（子を残して親タグ削除） | `src/components/Chart.tsx` |
 
 ## Find（検索・置換）
 
@@ -190,7 +191,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 
 ## 完了おめでとうございます！ 🎉
 
-全101レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
+全102レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
 
 リセットして再挑戦するには:
 ```bash

@@ -34,7 +34,7 @@ cursor .   # or: webstorm .
 export interface User {
 ```
 
-全 101 レッスンの一覧は **[TUTORIAL.md](./TUTORIAL.md)** を参照してください。
+全 102 レッスンの一覧は **[TUTORIAL.md](./TUTORIAL.md)** を参照してください。
 
 ## Lesson Categories
 
@@ -43,7 +43,7 @@ export interface User {
 | Move Cursor | 01–10 | ⌃F/⌃B/⌃A/⌃E, 単語・ブロック移動 |
 | Selection | 11–24 | 選択拡張, カーソル追加, ブラケット内選択 |
 | Scroll | 25–29 | ⌃V/⌥V ページスクロール |
-| Code Edit | 30–44 | Delete/Copy/Paste, リネーム, タグ操作 |
+| Code Edit | 30–44, 102 | Delete/Copy/Paste, リネーム, タグ操作 |
 | Find | 45–48 | ⌘F/⌘⇧F 検索・置換 |
 | Split Editor | 49–53 | エディタ分割とフォーカス移動 |
 | Code Jump | 54–63 | 定義/実装ジャンプ, 履歴移動 |
@@ -90,7 +90,7 @@ git checkout . && git clean -fd
 
 ```
 daykey/
-  TUTORIAL.md              # Master lesson guide (全101レッスン一覧)
+  TUTORIAL.md              # Master lesson guide (全102レッスン一覧)
   src/
     app/
       layout.tsx            # Root layout (Lessons 56–57)
@@ -101,7 +101,7 @@ daykey/
       Sidebar.tsx           # Side navigation (Lessons 52–53)
       StatCard.tsx          # Metric card (Lessons 30–34)
       StatsGrid.tsx         # Stats grid (Lessons 49–51)
-      Chart.tsx             # Bar chart (Lessons 42–44)
+      Chart.tsx             # Bar chart (Lessons 42–44, 102)
       DataTable.tsx         # Data table (Lessons 11–16, 94–99, 101)
       SearchBar.tsx         # Search input (Lessons 35–36)
       UserMenu.tsx          # User dropdown (Lessons 37–38)

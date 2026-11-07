@@ -2,7 +2,7 @@
   "name": "daykey-lesson-jump",
   "displayName": "DayKey Lesson Jump",
   "description": "Navigate DayKey lesson comments across all files.",
-  "version": "0.0.4",
+  "version": "0.0.8",
   "publisher": "local",
   "engines": {
     "vscode": "^1.75.0"
