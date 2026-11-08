@@ -2,7 +2,7 @@
 // Go to Implementation — このファイルの関数がコンポーネントから呼ばれています
 // ⌘B で呼び出し元からここにジャンプしてみてください
 
-// 🎯 Lesson 55: ⌘⌥B
+// 🎯 Lesson 55: ⌘B
 // Go to Definition — 型定義にジャンプしてみてください
 // ApiResponse の上で ⌘⌥B を押してください
 
