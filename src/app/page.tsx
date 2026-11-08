@@ -146,7 +146,7 @@ export default function DashboardPage() {
   // Keyboard Shortcuts — ⇧⌘, でキーボードショートカット設定を開いてください
 
   // 🎯 Lesson 85: ⇧⌘J
-  // Open Cursor Settings — ⇧⌘J で Cursor 固有の設定を開いてください
+  // Switch to Agents Window — ⇧⌘J で Agents Window に切り替えてください
 
   // 🎯 Lesson 86: ⌘E
   // Show Markdown Preview — TUTORIAL.md を開いて ⌘E でマークダウンプレビューを表示してください
@@ -165,9 +165,6 @@ export default function DashboardPage() {
 
   // 🎯 Lesson 91: ⌃X ⌃C
   // Toggle Cursor Tab — ⌃X ⌃C で Cursor Tab（AI補完）をトグルしてください（chord shortcut）
-
-  // 🎯 Lesson 99: ⌘⇧J
-  // Toggle Cursor/Zed Agents Window — ⌘⇧J で Cursor/Zed の Agents Window をトグルしてください
 
   // 🎯 Lesson 92: ⌃G ⌃B
   // Git Blame — ⌃G ⌃B で現在の行の Git Blame を表示してください（chord shortcut / WebStorm）

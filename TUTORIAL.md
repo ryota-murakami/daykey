@@ -83,7 +83,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 42 | ⌃⌘T | Surround With Snippet（スニペットで囲む） | `src/components/Chart.tsx` |
 | 43 | ⌃S | Wrapping HTML Tag（タグ変更） | `src/components/Chart.tsx` |
 | 44 | ⌃⌘D | Delete Parent HTML Tag（親タグ削除） | `src/components/Chart.tsx` |
-| 101 | ⌃⌘S | Delete Parent HTML Tag（子を残して親タグ削除） | `src/components/Chart.tsx` |
+| 100 | ⌃⌘S | Delete Parent HTML Tag（子を残して親タグ削除） | `src/components/Chart.tsx` |
 
 ## Find（検索・置換）
 
@@ -154,7 +154,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 82 | ⌃X ⌃X | ESLint --fix | `src/app/page.tsx` |
 | 83 | ⌃Space | Format Document（デフォルトフォーマッター） | `src/app/page.tsx` |
 | 84 | ⇧⌘, | Keyboard Shortcuts | `src/app/page.tsx` |
-| 85 | ⇧⌘J | Open Cursor Settings | `src/app/page.tsx` |
+| 85 | ⇧⌘J | Switch to Agents Window | `src/app/page.tsx` |
 | 86 | ⌘E | Show Markdown Preview | `src/app/page.tsx` |
 | 87 | ⌃W | Switch Project | `src/app/page.tsx` |
 | 88 | ⌃X ⌃1 | Toggle Primary Side Bar | `src/app/page.tsx` |
@@ -166,7 +166,6 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 89 | ⌘L | Toggle Chat Tab | `src/app/page.tsx` |
 | 90 | ⌘⇧L | New AI Chat | `src/app/page.tsx` |
 | 91 | ⌃X ⌃C | Toggle Cursor Tab | `src/app/page.tsx` |
-| 99 | ⌘⇧J | Toggle Cursor/Zed Agents Window | `src/app/page.tsx` |
 
 ## Git
 
@@ -184,13 +183,13 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 96 | ⌥⌘↑ | Clone Cursor Above（上にカーソルクローン） | `src/components/DataTable.tsx` |
 | 97 | ⌥⌘↓ | Clone Cursor Below（下にカーソルクローン） | `src/components/DataTable.tsx` |
 | 98 | ⌘⇧Mouse | Vertical cursor fill-in（垂直カーソル） | `src/components/DataTable.tsx` |
-| 100 | ctrlCmd | `editor.multiCursorModifier` を `ctrlCmd` に設定（⌘クリックでキャレット追加、⌥ドラッグで矩形選択） | `src/components/DataTable.tsx` |
+| 99 | ctrlCmd | `editor.multiCursorModifier` を `ctrlCmd` に設定（⌘クリックでキャレット追加、⌥ドラッグで矩形選択） | `src/components/DataTable.tsx` |
 
 ---
 
 ## 完了おめでとうございます！ 🎉
 
-全101レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
+全100レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
 
 リセットして再挑戦するには:
 ```bash
