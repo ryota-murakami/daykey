@@ -140,7 +140,7 @@ export default function DashboardPage() {
   // ESLint --fix — ⌃X ⌃X で ESLint の自動修正を実行してください（chord shortcut）
 
   // 🎯 Lesson 83: ⌃Space
-  // Format with Prettier — ⌃Space でコードをフォーマットしてください
+  // Format Document — ⌃Space でプロジェクトのデフォルトフォーマッターを使ってコードをフォーマットしてください
 
   // 🎯 Lesson 84: ⇧⌘,
   // Keyboard Shortcuts — ⇧⌘, でキーボードショートカット設定を開いてください

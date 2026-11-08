@@ -152,7 +152,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 80 | ⌃X ⌃R | Reload Window | `src/app/page.tsx` |
 | 81 | ⌃⌘, | Open Settings | `src/app/page.tsx` |
 | 82 | ⌃X ⌃X | ESLint --fix | `src/app/page.tsx` |
-| 83 | ⌃Space | Format with Prettier | `src/app/page.tsx` |
+| 83 | ⌃Space | Format Document（デフォルトフォーマッター） | `src/app/page.tsx` |
 | 84 | ⇧⌘, | Keyboard Shortcuts | `src/app/page.tsx` |
 | 85 | ⇧⌘J | Open Cursor Settings | `src/app/page.tsx` |
 | 86 | ⌘E | Show Markdown Preview | `src/app/page.tsx` |
