@@ -166,9 +166,6 @@ export default function DashboardPage() {
   // 🎯 Lesson 91: ⌃X ⌃C
   // Toggle Cursor Tab — ⌃X ⌃C で Cursor Tab（AI補完）をトグルしてください（chord shortcut）
 
-  // 🎯 Lesson 92: ⌃G ⌃B
-  // Git Blame — ⌃G ⌃B で現在の行の Git Blame を表示してください（chord shortcut / WebStorm）
-
   return (
     <div className="flex h-screen bg-background">
       <Sidebar />

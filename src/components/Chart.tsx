@@ -11,7 +11,7 @@ import type { ChartDataPoint } from "@/lib/types";
 // 🎯 Lesson 44: ⌃⌘D
 // 親の HTML タグを ⌃⌘D で削除してください（Delete Parent HTML Tag）
 
-// 🎯 Lesson 100: ⌃⌘S
+// 🎯 Lesson 99: ⌃⌘S
 // 末尾の Y-axis の外側 div を選択して ⌃⌘S — 中の span 3つを残して親タグだけ消してください（Delete Parent HTML Tag, preserve children）
 
 interface ChartProps {

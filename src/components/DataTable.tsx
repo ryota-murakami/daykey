@@ -47,25 +47,25 @@ interface DataTableProps {
 // Multiple Cursor & Rectangular Selection Lessons
 // ---------------------------------------------------------------------------
 
-// 🎯 Lesson 93: ⌥Drag
+// 🎯 Lesson 92: ⌥Drag
 // 矩形選択 — ⌥キーを押しながらドラッグで矩形範囲を選択（WebStorm）
 
-// 🎯 Lesson 94: ⌥⇧Drag
+// 🎯 Lesson 93: ⌥⇧Drag
 // 矩形選択 — ⌥⇧を押しながらドラッグで矩形範囲を選択（Cursor）
 
-// 🎯 Lesson 95: ⌘Click
+// 🎯 Lesson 94: ⌘Click
 // 複数の行の同じ位置を ⌘Click で追加カーソルを配置してください
 
-// 🎯 Lesson 96: ⌥⌘↑
+// 🎯 Lesson 95: ⌥⌘↑
 // カーソルを上にクローンしてください（Clone Cursor Above）
 
-// 🎯 Lesson 97: ⌥⌘↓
+// 🎯 Lesson 96: ⌥⌘↓
 // カーソルを下にクローンして、下の5行を同時に編集してください（Clone Cursor Below）
 
-// 🎯 Lesson 98: ⌘⇧Mouse
+// 🎯 Lesson 97: ⌘⇧Mouse
 // 垂直にカーソルを配置してください（Vertical cursor fill-in）
 
-// 🎯 Lesson 99: ctrlCmd
+// 🎯 Lesson 98: ctrlCmd
 // `editor.multiCursorModifier` を `ctrlCmd` に設定してください（VS Code/Cursor の settings.json）。⌘クリックでキャレットを追加し、⌥ドラッグで矩形選択になります
 
 type SortDirection = "asc" | "desc" | null;
@@ -168,7 +168,7 @@ export function DataTable({ data, columns }: DataTableProps) {
   // Multiple Cursor Practice Area
   // -------------------------------------------------------------------------
   // The <td> elements below follow an intentionally repetitive pattern.
-  // Place your cursor on one <td> and use ⌥⌘↓ (Lesson 98) to clone
+  // Place your cursor on one <td> and use ⌥⌘↓ (Lesson 96) to clone
   // cursors downward, then edit all cells simultaneously.
   // -------------------------------------------------------------------------
 

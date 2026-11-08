@@ -83,7 +83,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 42 | ⌃⌘T | Surround With Snippet（スニペットで囲む） | `src/components/Chart.tsx` |
 | 43 | ⌃S | Wrapping HTML Tag（タグ変更） | `src/components/Chart.tsx` |
 | 44 | ⌃⌘D | Delete Parent HTML Tag（親タグ削除） | `src/components/Chart.tsx` |
-| 100 | ⌃⌘S | Delete Parent HTML Tag（子を残して親タグ削除） | `src/components/Chart.tsx` |
+| 99 | ⌃⌘S | Delete Parent HTML Tag（子を残して親タグ削除） | `src/components/Chart.tsx` |
 
 ## Find（検索・置換）
 
@@ -167,29 +167,23 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 90 | ⌘⇧L | New AI Chat | `src/app/page.tsx` |
 | 91 | ⌃X ⌃C | Toggle Cursor Tab | `src/app/page.tsx` |
 
-## Git
-
-| # | Shortcut | Action | File |
-|---|----------|--------|------|
-| 92 | ⌃G ⌃B | Git Blame（WebStorm） | `src/app/page.tsx` |
-
 ## Multiple Cursor（マルチカーソル）
 
 | # | Shortcut | Action | File |
 |---|----------|--------|------|
-| 93 | ⌥Drag | Rectangular Select（矩形選択 / WebStorm） | `src/components/DataTable.tsx` |
-| 94 | ⌥⇧Drag | Rectangular Select（矩形選択 / Cursor） | `src/components/DataTable.tsx` |
-| 95 | ⌘Click | Add/Remove caret（カーソル追加） | `src/components/DataTable.tsx` |
-| 96 | ⌥⌘↑ | Clone Cursor Above（上にカーソルクローン） | `src/components/DataTable.tsx` |
-| 97 | ⌥⌘↓ | Clone Cursor Below（下にカーソルクローン） | `src/components/DataTable.tsx` |
-| 98 | ⌘⇧Mouse | Vertical cursor fill-in（垂直カーソル） | `src/components/DataTable.tsx` |
-| 99 | ctrlCmd | `editor.multiCursorModifier` を `ctrlCmd` に設定（⌘クリックでキャレット追加、⌥ドラッグで矩形選択） | `src/components/DataTable.tsx` |
+| 92 | ⌥Drag | Rectangular Select（矩形選択 / WebStorm） | `src/components/DataTable.tsx` |
+| 93 | ⌥⇧Drag | Rectangular Select（矩形選択 / Cursor） | `src/components/DataTable.tsx` |
+| 94 | ⌘Click | Add/Remove caret（カーソル追加） | `src/components/DataTable.tsx` |
+| 95 | ⌥⌘↑ | Clone Cursor Above（上にカーソルクローン） | `src/components/DataTable.tsx` |
+| 96 | ⌥⌘↓ | Clone Cursor Below（下にカーソルクローン） | `src/components/DataTable.tsx` |
+| 97 | ⌘⇧Mouse | Vertical cursor fill-in（垂直カーソル） | `src/components/DataTable.tsx` |
+| 98 | ctrlCmd | `editor.multiCursorModifier` を `ctrlCmd` に設定（⌘クリックでキャレット追加、⌥ドラッグで矩形選択） | `src/components/DataTable.tsx` |
 
 ---
 
 ## 完了おめでとうございます！ 🎉
 
-全100レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
+全99レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
 
 リセットして再挑戦するには:
 ```bash
