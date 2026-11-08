@@ -47,25 +47,25 @@ interface DataTableProps {
 // Multiple Cursor & Rectangular Selection Lessons
 // ---------------------------------------------------------------------------
 
-// 🎯 Lesson 94: ⌥Drag
+// 🎯 Lesson 93: ⌥Drag
 // 矩形選択 — ⌥キーを押しながらドラッグで矩形範囲を選択（WebStorm）
 
-// 🎯 Lesson 95: ⌥⇧Drag
+// 🎯 Lesson 94: ⌥⇧Drag
 // 矩形選択 — ⌥⇧を押しながらドラッグで矩形範囲を選択（Cursor）
 
-// 🎯 Lesson 96: ⌘Click
+// 🎯 Lesson 95: ⌘Click
 // 複数の行の同じ位置を ⌘Click で追加カーソルを配置してください
 
-// 🎯 Lesson 97: ⌥⌘↑
+// 🎯 Lesson 96: ⌥⌘↑
 // カーソルを上にクローンしてください（Clone Cursor Above）
 
-// 🎯 Lesson 98: ⌥⌘↓
+// 🎯 Lesson 97: ⌥⌘↓
 // カーソルを下にクローンして、下の5行を同時に編集してください（Clone Cursor Below）
 
-// 🎯 Lesson 99: ⌘⇧Mouse
+// 🎯 Lesson 98: ⌘⇧Mouse
 // 垂直にカーソルを配置してください（Vertical cursor fill-in）
 
-// 🎯 Lesson 101: ctrlCmd
+// 🎯 Lesson 100: ctrlCmd
 // `editor.multiCursorModifier` を `ctrlCmd` に設定してください（VS Code/Cursor の settings.json）。⌘クリックでキャレットを追加し、⌥ドラッグで矩形選択になります
 
 type SortDirection = "asc" | "desc" | null;

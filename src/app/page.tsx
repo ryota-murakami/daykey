@@ -58,8 +58,7 @@ export default function DashboardPage() {
   // Toggle Explorer — ⌘1 を押してファイルエクスプローラーの表示/非表示を切り替えてください
 
   // 🎯 Lesson 66: ⌘2
-  // Toggle Outline — ⌘2 を押してアウトラインパネルを表示してください
-  // このファイルの関数やコンポーネントの構造が見えます
+  // Toggle Terminal — ⌘2 を押してターミナルパネルの表示/非表示を切り替えてください
 
   // 🎯 Lesson 67: Esc
   // Focus Editor — エクスプローラーやサイドパネルにフォーカスがある状態で
@@ -127,53 +126,50 @@ export default function DashboardPage() {
   // 🎯 Lesson 78: ⌃C ⌃C
   // Show Context Menu — ⌃C ⌃C でコンテキストメニューを表示してください（chord shortcut）
 
-  // 🎯 Lesson 79: ⌃\
-  // Toggle Terminal — ⌃\ を押してターミナルパネルの表示/非表示を切り替えてください
-
-  // 🎯 Lesson 80: ⇧⌘D
+  // 🎯 Lesson 79: ⇧⌘D
   // Toggle Panel Right/Bottom — ⇧⌘D でターミナルパネルを右と下で切り替えてください
   // 右にあるときは下へ、下にあるときは右へ戻ります
 
-  // 🎯 Lesson 81: ⌃X ⌃R
+  // 🎯 Lesson 80: ⌃X ⌃R
   // Reload Window — ⌃X ⌃R でウィンドウをリロードしてください（chord shortcut）
 
-  // 🎯 Lesson 82: ⌃⌘,
+  // 🎯 Lesson 81: ⌃⌘,
   // Open Settings — ⌃⌘, で設定画面を開いてください
 
-  // 🎯 Lesson 83: ⌃X ⌃X
+  // 🎯 Lesson 82: ⌃X ⌃X
   // ESLint --fix — ⌃X ⌃X で ESLint の自動修正を実行してください（chord shortcut）
 
-  // 🎯 Lesson 84: ⌃Space
+  // 🎯 Lesson 83: ⌃Space
   // Format with Prettier — ⌃Space でコードをフォーマットしてください
 
-  // 🎯 Lesson 85: ⇧⌘,
+  // 🎯 Lesson 84: ⇧⌘,
   // Keyboard Shortcuts — ⇧⌘, でキーボードショートカット設定を開いてください
 
-  // 🎯 Lesson 86: ⇧⌘J
+  // 🎯 Lesson 85: ⇧⌘J
   // Open Cursor Settings — ⇧⌘J で Cursor 固有の設定を開いてください
 
-  // 🎯 Lesson 87: ⌘E
+  // 🎯 Lesson 86: ⌘E
   // Show Markdown Preview — TUTORIAL.md を開いて ⌘E でマークダウンプレビューを表示してください
 
-  // 🎯 Lesson 88: ⌃W
+  // 🎯 Lesson 87: ⌃W
   // Switch Project — ⌃W でプロジェクト切り替えメニューを開いてください
 
-  // 🎯 Lesson 89: ⌃X ⌃1
+  // 🎯 Lesson 88: ⌃X ⌃1
   // Toggle Primary Side Bar — ⌃X ⌃1 でプライマリサイドバーをトグルしてください（chord shortcut）
 
-  // 🎯 Lesson 90: ⌘L
+  // 🎯 Lesson 89: ⌘L
   // Toggle Chat Tab — ⌘L で AI チャットタブを開いてください
 
-  // 🎯 Lesson 91: ⌘⇧L
+  // 🎯 Lesson 90: ⌘⇧L
   // New AI Chat — ⌘⇧L で新しい AI チャットを開始してください
 
-  // 🎯 Lesson 92: ⌃X ⌃C
+  // 🎯 Lesson 91: ⌃X ⌃C
   // Toggle Cursor Tab — ⌃X ⌃C で Cursor Tab（AI補完）をトグルしてください（chord shortcut）
 
-  // 🎯 Lesson 100: ⌘⇧J
+  // 🎯 Lesson 99: ⌘⇧J
   // Toggle Cursor/Zed Agents Window — ⌘⇧J で Cursor/Zed の Agents Window をトグルしてください
 
-  // 🎯 Lesson 93: ⌃G ⌃B
+  // 🎯 Lesson 92: ⌃G ⌃B
   // Git Blame — ⌃G ⌃B で現在の行の Git Blame を表示してください（chord shortcut / WebStorm）
 
   return (

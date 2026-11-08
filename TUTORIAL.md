@@ -83,7 +83,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 42 | ⌃⌘T | Surround With Snippet（スニペットで囲む） | `src/components/Chart.tsx` |
 | 43 | ⌃S | Wrapping HTML Tag（タグ変更） | `src/components/Chart.tsx` |
 | 44 | ⌃⌘D | Delete Parent HTML Tag（親タグ削除） | `src/components/Chart.tsx` |
-| 102 | ⌃⌘S | Delete Parent HTML Tag（子を残して親タグ削除） | `src/components/Chart.tsx` |
+| 101 | ⌃⌘S | Delete Parent HTML Tag（子を残して親タグ削除） | `src/components/Chart.tsx` |
 
 ## Find（検索・置換）
 
@@ -130,7 +130,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | # | Shortcut | Action | File |
 |---|----------|--------|------|
 | 65 | ⌘1 | Toggle Explorer（エクスプローラー切替） | `src/app/page.tsx` |
-| 66 | ⌘2 | Toggle Outline（アウトライン切替） | `src/app/page.tsx` |
+| 66 | ⌘2 | Toggle Terminal（ターミナル切替） | `src/app/page.tsx` |
 | 67 | Esc | Focus Editor（エディタにフォーカス） | `src/app/page.tsx` |
 | 68 | ⌘N | New File（新規ファイル） | `src/app/page.tsx` |
 | 69 | ⌘D | New Folder（新規フォルダ） | `src/app/page.tsx` |
@@ -148,50 +148,49 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 76 | ⌃T | Refactor menu | `src/app/page.tsx` |
 | 77 | ⌘U | Show Reference/Usage | `src/app/page.tsx` |
 | 78 | ⌃C ⌃C | Show Context Menu | `src/app/page.tsx` |
-| 79 | ⌃\ | Toggle Terminal | `src/app/page.tsx` |
-| 80 | ⇧⌘D | Toggle Panel Right/Bottom（右⇔下） | `src/app/page.tsx` |
-| 81 | ⌃X ⌃R | Reload Window | `src/app/page.tsx` |
-| 82 | ⌃⌘, | Open Settings | `src/app/page.tsx` |
-| 83 | ⌃X ⌃X | ESLint --fix | `src/app/page.tsx` |
-| 84 | ⌃Space | Format with Prettier | `src/app/page.tsx` |
-| 85 | ⇧⌘, | Keyboard Shortcuts | `src/app/page.tsx` |
-| 86 | ⇧⌘J | Open Cursor Settings | `src/app/page.tsx` |
-| 87 | ⌘E | Show Markdown Preview | `src/app/page.tsx` |
-| 88 | ⌃W | Switch Project | `src/app/page.tsx` |
-| 89 | ⌃X ⌃1 | Toggle Primary Side Bar | `src/app/page.tsx` |
+| 79 | ⇧⌘D | Toggle Panel Right/Bottom（右⇔下） | `src/app/page.tsx` |
+| 80 | ⌃X ⌃R | Reload Window | `src/app/page.tsx` |
+| 81 | ⌃⌘, | Open Settings | `src/app/page.tsx` |
+| 82 | ⌃X ⌃X | ESLint --fix | `src/app/page.tsx` |
+| 83 | ⌃Space | Format with Prettier | `src/app/page.tsx` |
+| 84 | ⇧⌘, | Keyboard Shortcuts | `src/app/page.tsx` |
+| 85 | ⇧⌘J | Open Cursor Settings | `src/app/page.tsx` |
+| 86 | ⌘E | Show Markdown Preview | `src/app/page.tsx` |
+| 87 | ⌃W | Switch Project | `src/app/page.tsx` |
+| 88 | ⌃X ⌃1 | Toggle Primary Side Bar | `src/app/page.tsx` |
 
 ## AI
 
 | # | Shortcut | Action | File |
 |---|----------|--------|------|
-| 90 | ⌘L | Toggle Chat Tab | `src/app/page.tsx` |
-| 91 | ⌘⇧L | New AI Chat | `src/app/page.tsx` |
-| 92 | ⌃X ⌃C | Toggle Cursor Tab | `src/app/page.tsx` |
-| 100 | ⌘⇧J | Toggle Cursor/Zed Agents Window | `src/app/page.tsx` |
+| 89 | ⌘L | Toggle Chat Tab | `src/app/page.tsx` |
+| 90 | ⌘⇧L | New AI Chat | `src/app/page.tsx` |
+| 91 | ⌃X ⌃C | Toggle Cursor Tab | `src/app/page.tsx` |
+| 99 | ⌘⇧J | Toggle Cursor/Zed Agents Window | `src/app/page.tsx` |
 
 ## Git
 
 | # | Shortcut | Action | File |
 |---|----------|--------|------|
-| 93 | ⌃G ⌃B | Git Blame（WebStorm） | `src/app/page.tsx` |
+| 92 | ⌃G ⌃B | Git Blame（WebStorm） | `src/app/page.tsx` |
 
 ## Multiple Cursor（マルチカーソル）
 
 | # | Shortcut | Action | File |
 |---|----------|--------|------|
-| 94 | ⌥Drag | Rectangular Select（矩形選択 / WebStorm） | `src/components/DataTable.tsx` |
-| 95 | ⌥⇧Drag | Rectangular Select（矩形選択 / Cursor） | `src/components/DataTable.tsx` |
-| 96 | ⌘Click | Add/Remove caret（カーソル追加） | `src/components/DataTable.tsx` |
-| 97 | ⌥⌘↑ | Clone Cursor Above（上にカーソルクローン） | `src/components/DataTable.tsx` |
-| 98 | ⌥⌘↓ | Clone Cursor Below（下にカーソルクローン） | `src/components/DataTable.tsx` |
-| 99 | ⌘⇧Mouse | Vertical cursor fill-in（垂直カーソル） | `src/components/DataTable.tsx` |
-| 101 | ctrlCmd | `editor.multiCursorModifier` を `ctrlCmd` に設定（⌘クリックでキャレット追加、⌥ドラッグで矩形選択） | `src/components/DataTable.tsx` |
+| 93 | ⌥Drag | Rectangular Select（矩形選択 / WebStorm） | `src/components/DataTable.tsx` |
+| 94 | ⌥⇧Drag | Rectangular Select（矩形選択 / Cursor） | `src/components/DataTable.tsx` |
+| 95 | ⌘Click | Add/Remove caret（カーソル追加） | `src/components/DataTable.tsx` |
+| 96 | ⌥⌘↑ | Clone Cursor Above（上にカーソルクローン） | `src/components/DataTable.tsx` |
+| 97 | ⌥⌘↓ | Clone Cursor Below（下にカーソルクローン） | `src/components/DataTable.tsx` |
+| 98 | ⌘⇧Mouse | Vertical cursor fill-in（垂直カーソル） | `src/components/DataTable.tsx` |
+| 100 | ctrlCmd | `editor.multiCursorModifier` を `ctrlCmd` に設定（⌘クリックでキャレット追加、⌥ドラッグで矩形選択） | `src/components/DataTable.tsx` |
 
 ---
 
 ## 完了おめでとうございます！ 🎉
 
-全102レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
+全101レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
 
 リセットして再挑戦するには:
 ```bash
