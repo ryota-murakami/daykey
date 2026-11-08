@@ -34,7 +34,7 @@ cursor .   # or: webstorm .
 export interface User {
 ```
 
-全 99 レッスンの一覧は **[TUTORIAL.md](./TUTORIAL.md)** を参照してください。
+全 98 レッスンの一覧は **[TUTORIAL.md](./TUTORIAL.md)** を参照してください。
 
 ## Lesson Categories
 
@@ -43,7 +43,7 @@ export interface User {
 | Move Cursor | 01–10 | ⌃F/⌃B/⌃A/⌃E, 単語・ブロック移動 |
 | Selection | 11–24 | 選択拡張, カーソル追加, ブラケット内選択 |
 | Scroll | 25–29 | ⌃V/⌥V ページスクロール |
-| Code Edit | 30–44, 99 | Delete/Copy/Paste, リネーム, タグ操作 |
+| Code Edit | 30–44, 98 | Delete/Copy/Paste, リネーム, タグ操作 |
 | Find | 45–48 | ⌘F/⌘⇧F 検索・置換 |
 | Split Editor | 49–53 | エディタ分割とフォーカス移動 |
 | Code Jump | 54–63 | 定義/実装ジャンプ, 履歴移動 |
@@ -51,7 +51,7 @@ export interface User {
 | File Explorer | 65–72 | エクスプローラー切替, ターミナル, ファイル操作 |
 | IDE Feature | 73–88 | コマンドパレット, ターミナル配置, 設定, Agents Window |
 | AI | 89–91 | AI チャット操作 |
-| Multiple Cursor | 92–98 | 矩形選択, カーソルクローン, multiCursorModifier |
+| Multiple Cursor | 92–97 | 矩形選択, カーソルクローン |
 
 ## Modifier Key Legend
 
@@ -89,7 +89,7 @@ git checkout . && git clean -fd
 
 ```
 daykey/
-  TUTORIAL.md              # Master lesson guide (全99レッスン一覧)
+  TUTORIAL.md              # Master lesson guide (全98レッスン一覧)
   src/
     app/
       layout.tsx            # Root layout (Lessons 56–57)
@@ -100,8 +100,8 @@ daykey/
       Sidebar.tsx           # Side navigation (Lessons 52–53)
       StatCard.tsx          # Metric card (Lessons 30–34)
       StatsGrid.tsx         # Stats grid (Lessons 49–51)
-      Chart.tsx             # Bar chart (Lessons 42–44, 99)
-      DataTable.tsx         # Data table (Lessons 11–16, 92–98)
+      Chart.tsx             # Bar chart (Lessons 42–44, 98)
+      DataTable.tsx         # Data table (Lessons 11–16, 92–97)
       SearchBar.tsx         # Search input (Lessons 35–36)
       UserMenu.tsx          # User dropdown (Lessons 37–38)
       Modal.tsx             # Modal dialog (Lessons 39–41)

@@ -83,7 +83,7 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 42 | ⌃⌘T | Surround With Snippet（スニペットで囲む） | `src/components/Chart.tsx` |
 | 43 | ⌃S | Wrapping HTML Tag（タグ変更） | `src/components/Chart.tsx` |
 | 44 | ⌃⌘D | Delete Parent HTML Tag（親タグ削除） | `src/components/Chart.tsx` |
-| 99 | ⌃⌘S | Delete Parent HTML Tag（子を残して親タグ削除） | `src/components/Chart.tsx` |
+| 98 | ⌃⌘S | Delete Parent HTML Tag（子を残して親タグ削除） | `src/components/Chart.tsx` |
 
 ## Find（検索・置換）
 
@@ -177,13 +177,12 @@ Emacs/WebStorm/Cursor スタイルのキーバインドを実際のコードで�
 | 95 | ⌥⌘↑ | Clone Cursor Above（上にカーソルクローン） | `src/components/DataTable.tsx` |
 | 96 | ⌥⌘↓ | Clone Cursor Below（下にカーソルクローン） | `src/components/DataTable.tsx` |
 | 97 | ⌘⇧Mouse | Vertical cursor fill-in（垂直カーソル） | `src/components/DataTable.tsx` |
-| 98 | ctrlCmd | `editor.multiCursorModifier` を `ctrlCmd` に設定（⌘クリックでキャレット追加、⌥ドラッグで矩形選択） | `src/components/DataTable.tsx` |
 
 ---
 
 ## 完了おめでとうございます！ 🎉
 
-全99レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
+全98レッスンを完了しました。これらのキーバインドを日常のコーディングで使い続けることで、自然と身についていきます。
 
 リセットして再挑戦するには:
 ```bash
